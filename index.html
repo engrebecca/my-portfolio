@@ -7,6 +7,8 @@
 
     <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Link to Custom Sticky Footer Style -->
+    <link href="sticky-footer.css" rel="stylesheet">
     <!-- Link to Google Font Playfair -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <!-- Link to CSS stylesheet -->
@@ -15,7 +17,7 @@
     <title>Portfolio - Rebecca Eng</title>
   </head>
 
-  <body>
+  <body class="d-flex flex-column h-100">
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <span class="bg-info text-white ml-3">
@@ -37,6 +39,7 @@
     </nav>
 
     <!-- Container -->
+    <!-- <main role="main" class="flex-shrink-0"> -->
     <div class="container">
         <!-- Bio Card -->
         <div class="card" style="width: 18rem;">
@@ -45,17 +48,24 @@
             </div>
             <img src="Assets/headshot.jpg" class="card-img-top" alt="Rebecca Eng headshot">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
             </div>
-          </div>
+            </div>
     </div>
-
-    <!-- Footer -->
-    <nav class="navbar fixed-bottom justify-content-center navbar-dark bg-secondary border-top border-info">
+    <!-- </main> -->
+    
+    <nav class="navbar fixed-bottom justify-content-center navbar-dark bg-secondary border-top border-info footer-top">
         <span class="navbar-text">
             <p>© Copyright</p>
         </span>
     </nav>
+
+    <!-- Sticky footer -->
+    <!-- <footer class="footer mt-auto py-3 text-center navbar-dark bg-secondary border-top border-info footer-top">
+        <div class="container">
+          <span>© Copyright</span>
+        </div>
+    </footer> -->
 
 
     <!-- Optional JavaScript -->
