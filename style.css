@@ -5,3 +5,10 @@ h1 {
 .footer-top {
     border-top-width: 8px !important;
 }
+
+.bg-img {
+    background-image: url("https://cdn.pixabay.com/photo/2019/12/15/08/33/blue-4696575_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
