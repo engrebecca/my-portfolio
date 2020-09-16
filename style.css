@@ -8,7 +8,7 @@ h1 {
 
 .bg-img {
     background-image: url("https://cdn.pixabay.com/photo/2019/12/15/08/33/blue-4696575_1280.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
 }
