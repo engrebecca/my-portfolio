@@ -1,7 +1,9 @@
+/* Playfair font from Google */
 .playfair-font {
     font-family: 'Playfair Display', serif;
 }
 
+/* Formats background image to fit screen width and repeat */
 .bg-img {
     background-image: url("https://cdn.pixabay.com/photo/2019/12/15/08/33/blue-4696575_1280.jpg");
     background-repeat: repeat;
@@ -9,40 +11,28 @@
     background-position: center;
 }
 
-/* main > .container {
-    padding: 60px 15px 0;
-}
-  
-.footer {
-    background-color: #f5f5f5;
-}
-  
-.footer > .container {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-  
-code {
-    font-size: 80%;
-} */
-
+/* Sets HTML and body height to 100% */
 html, body {
     height: 100%;
 }
 
+/* Body properties for sticky footer */
 body {
     display: flex;
     flex-direction: column;
 }
 
+/* Content class for sticky footer */
 .content {
     flex: 1 0 auto;
 }
 
+/* Footer property for sticky footer */
 .footer {
     flex-shrink: 0
 }
 
+/* Add turquoise top border to footer */
 .footer-top {
     border-top-width: 8px !important;
 }
