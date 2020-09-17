@@ -24,7 +24,7 @@ Welcome to my portfolio! I created this website to display projects that demonst
 * [GitHub](https://github.com/) - hosts repository and deploys page on GitHub
 
 ## Code
-The below code illustrates how rows, columns, sub-rows, and sub-colums work with the Bootstrap grid system to render a responsive site
+The below code illustrates how rows, columns, sub-rows, and sub-colums work with the Bootstrap grid system to render a responsive site. They allow images in the portfolio to display side by side on large screens or stacked on small screens.
 
 
     <!-- Portfolio body -->
